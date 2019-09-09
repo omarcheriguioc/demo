@@ -25,8 +25,8 @@ public class DemoApplicationTests {
 	@Test
 	public void contextLoads() {
 		boolean result = personService.addPerson(person);
-		//failing test case
-		assertEquals(false, result);
+		//success test case
+		assertEquals(true, result);
 	}
 
 }
