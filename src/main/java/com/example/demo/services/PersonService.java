@@ -20,4 +20,13 @@ public class PersonService {
 		int temp = rn.nextInt(this.persons.size());
 		return persons.get(temp);
 	}
+	
+	//add new person to the list of persons
+	public boolean addPerson(Person person) {
+		if(person!=null) {
+			persons.add(person);
+			return true;
+		}
+		return false;
+	}
 }
