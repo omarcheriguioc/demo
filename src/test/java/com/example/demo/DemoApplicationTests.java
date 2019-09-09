@@ -25,7 +25,7 @@ public class DemoApplicationTests {
 	@Test
 	public void contextLoads() {
 		boolean result = personService.addPerson(person);
-		assertEquals(true, result);
+		assertEquals(false, result);
 	}
 
 }
